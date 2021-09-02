@@ -37,14 +37,14 @@ public class Menu
                 case 1:
                     // DISPLAY MAIN MANU
                     System.out.println("\n***************************");
-                    System.out.println("**    Payroll System    **");
+                    System.out.println("**    Payroll System     **");
                     System.out.println("***************************");
                     System.out.println("** 1) Register Employees **");
                     System.out.println("** 2) View Emplyees      **");
                     System.out.println("** 3) Remove Employees   **");
                     System.out.println("** 4) Generate Payslips  **");
                     System.out.println("** 5) Exit               **");
-                    System.out.println("****************************\n");
+                    System.out.println("***************************\n");
                     
                     // METHOD TO DISPLAY ERRORS/EXCEPTION IF OCCUR WITH PARAMETER OPTION AND SERVICE (5 OPTIONS)
                     option = menuService(option, 5);
